@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social-media-icon-link {
+    @apply btn btn-link btn-md no-underline hover:no-underline mx-1
+}
