@@ -4,7 +4,7 @@
           <div class="w-full text-center p-4 pb-0 mb-4">
             <div class="avatar">
               <div class="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://claudiainbytes.github.io/img/about.jpg" />
+                <img src="/img/about.jpg" />
               </div>
             </div>
           </div>

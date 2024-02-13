@@ -24,10 +24,11 @@
                 </ul>
               </div>
               <div class="navbar-end">
-                <a class="social-media-icon-link"><i class="fa-solid fa-moon"></i></a>
+                <ThemeSwitcher></ThemeSwitcher>
               </div>
             </div>
       </nav>
 </template>
 <script setup>
+  import ThemeSwitcher from './minicomponents/ThemeSwitcher.vue' 
 </script>
