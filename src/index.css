@@ -5,3 +5,19 @@
 .social-media-icon-link {
     @apply btn btn-link btn-md no-underline hover:no-underline mx-1
 }
+
+.card.image-full {
+    border-radius: 0;
+}
+.card.image-full .btn {
+    border-radius: 0;
+}
+.card.image-full:before {
+    opacity: 0;
+}
+.card.image-full .card-title {
+    @apply text-black [text-shadow:1px_1px_1px_var(--tw-shadow-color)] shadow-white
+}
+.card.image-full p {
+    @apply text-black [text-shadow:1px_1px_1px_var(--tw-shadow-color)] shadow-white
+}
