@@ -19,5 +19,4 @@
     }
     document.querySelector("html").setAttribute("data-theme", currentTheme.theme)
   }
-
 </script>
