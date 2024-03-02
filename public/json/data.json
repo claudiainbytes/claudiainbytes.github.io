@@ -1,0 +1,71 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": {
+                "es": "Intro",
+                "en": "Intro"
+            }
+        },
+        {
+            "id": 2,
+            "name": {
+                "es": "Habilidades",
+                "en": "Skills"
+            }
+        },
+        {
+            "id": 3,
+            "name": {
+                "es": "Proyectos",
+                "en": "Projects"
+            }
+        },
+        {
+            "id": 4,
+            "name": {
+                "es": "Blog",
+                "en": "Blog"
+            }
+        }
+    ],
+    "sections" : [
+        {
+            "id": 1,
+            "name": "Projects",
+            "title": {
+                "es": "Proyectos",
+                "en": "Projects"
+            },
+            "description": {
+                "es": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back",
+                "en": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            } 
+        },
+        {
+            "id": 2,
+            "name": "Skills",
+            "title": {
+                "es": "Habilidades",
+                "en": "Skills"
+            },
+            "description": {
+                "es": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2)",
+                "en": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2)"
+            } 
+        },
+        {
+            "id": 3,
+            "name": "Intro",
+            "title": {
+                "es": "Acerca de",
+                "en": "About me"
+            },
+            "description": {
+                "es": "Apasionada Desarrolladora Front-End con más de 5 años de experiencia creando interfaces centradas en el usuario para aplicaciones web de impacto. Experta en la traducción de diseños UI/UX en sitios web visualmente atractivos y responsivos que priorizan la experiencia del usuario en todos los dispositivos. Posee una sólida trayectoria de colaboración con equipos de diseño, garantizando la viabilidad técnica y entregando interfaces de usuario de alta calidad. Adicionalmente, es responsable de apoyar el desarrollo de nuevas funcionalidades orientadas al usuario, asegurando que el sitio web permanezca amigable, visualmente atractivo y adaptable de acuerdo a los requerimientos del proyecto y la viabilidad técnica.",
+                "en": "Passionate Front-End Developer with 5+ years of experience crafting user-centric interfaces for impactful web applications. Skilled in translating UI/UX designs into visually appealing and responsive websites that prioritize user experience across all devices. She has a strong track record of collaboration with design teams, ensuring technical feasibility and delivering high-quality user interfaces. Additionally, she is responsible for supporting the development of new user-facing features, ensuring the website remains user-friendly, visually appealing and responsive according to project requirements and technical feasibility."
+            } 
+        }
+    ] 
+    
+}

@@ -7,8 +7,6 @@
   import { useThemeSwitcherStore } from './../../store/themeswitcher_store'
   
   const themeSwitcherStore = useThemeSwitcherStore()
-  const { getCurrentTheme } = storeToRefs(themeSwitcherStore)
-
   const currentTheme = reactive(themeSwitcherStore.getCurrentTheme)
 
   const switchTheme = () => {
