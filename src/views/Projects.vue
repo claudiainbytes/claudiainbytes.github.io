@@ -6,14 +6,7 @@
         </div>
     </div>
     <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-8">
-        <CardProject :key="1" idCard="1"/>
-        <CardProject :key="2" idCard="2"/>
-        <CardProject :key="3" idCard="3"/>
-        <CardProject :key="4" idCard="4"/>
-        <CardProject :key="5" idCard="5"/>
-        <CardProject :key="6" idCard="6"/>
-        <CardProject :key="7" idCard="7"/>
-        <CardProject :key="8" idCard="8"/>
+        <CardProject v-for="card in projectsData.cards" :key="card.id" :idCard="card.id" :card="card"/>
     </div>
 </template>
 <script setup>

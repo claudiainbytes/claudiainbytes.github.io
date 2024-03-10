@@ -13,11 +13,11 @@
     border-radius: 0;
 }
 .card.image-full:before {
-    opacity: 0;
+    opacity: 0.3;
 }
-.card.image-full .card-title {
-    @apply text-black [text-shadow:1px_1px_1px_var(--tw-shadow-color)] shadow-white
+.card.image-full .modal-box :where(figure) {
+    border-radius: 0;
 }
-.card.image-full p {
-    @apply text-black [text-shadow:1px_1px_1px_var(--tw-shadow-color)] shadow-white
+.card.image-full .modal-box ul li{
+    display: inline;
 }

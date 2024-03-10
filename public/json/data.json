@@ -40,7 +40,117 @@
             "description": {
                 "es": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back",
                 "en": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-            } 
+            },
+            "cards":  [
+                    {
+                        "id": 24,
+                        "title": "The Fortune Cookie App",
+                        "short_desc": "A digital deck of positive quotes.",
+                        "img_large": "24-img-small.jpg",
+                        "img_small": "24-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/fortune-cookies-app",
+                        "demourl": "https://claudiainbytes.github.io/fortune-cookies-app/",
+                        "description": "A small project that shows random quotes based on React Redux JS."
+                    },
+                    {
+                        "id": 23,
+                        "title": "Placer Monticello",
+                        "short_desc": "Frontend development in Drupal CMS",
+                        "img_large": "23-img-small.jpg",
+                        "img_small": "23-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "",
+                        "demourl": "https://www.placermonticello.com/",
+                        "description": "That project consist of making the look and feel of Pastas Monticello website based on Drupal CMS."
+                    },
+                    {
+                        "id": 16,
+                        "title": "Palermo Cultural",
+                        "short_desc": "A cultural neighborhood map",
+                        "img_large": "16-img-large.jpg",
+                        "img_small": "16-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/Pb4gEvF93hM",
+                        "gitpage": "https://github.com/claudiainbytes/palermo-neighborhood-map",
+                        "demourl": "https://claudiainbytes.github.io/palermo-neighborhood-map/src/",
+                        "description": "The purpose of this project is create a SPA(Single Page Application) from a specific neighborhood that shows interesting spots using Google Maps APIs."
+                    },
+                    {
+                        "id": 17,
+                        "title": "Kamikaze Vs. Bugs",
+                        "short_desc": "A javascript arcade game",
+                        "img_large": "17-img-large.jpg",
+                        "img_small": "17-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/pX8gYE5OjJU",
+                        "gitpage": "https://github.com/claudiainbytes/kamikaze-vs-bugs",
+                        "demourl": "https://claudiainbytes.github.io/kamikaze-vs-bugs/",
+                        "description": "The purpose of this project is customize a classic frogger arcade game according to the lessons that I learnt about Javascript Intermediate and Canvas 2D at Udacity Front-End Nanodegree Program."
+                    },
+                    {
+                        "id": 22,
+                        "title": "Colombia Weather Forecast",
+                        "short_desc": "A weather forecast made in ReactJS",
+                        "img_large": "22-img-large.jpg",
+                        "img_small": "22-img-small.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/reactjsweatherforecast",
+                        "demourl": "https://claudiainbytes.github.io/reactjsweatherforecast/",
+                        "description": "The purpose of this project is create components that bring information about weather forecast in several cities of Colombia."
+                    },
+                    {
+                        "id": 18,
+                        "title": "Ruby Sinatra Workshops",
+                        "short_desc": "A small app to store workshops",
+                        "img_large": "18-img-large.jpg",
+                        "img_small": "18-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/SjhnDFsz47A",
+                        "gitpage": "https://github.com/claudiainbytes/ruby-sinatra-workshops-school",
+                        "demourl": "",
+                        "description": "This is a demo app to create workshops using Ruby and Sinatra. Milligram as micro CSS Framework."
+                    },
+                    {
+                        "id": 19,
+                        "title": "Angular CRUD Example",
+                        "short_desc": "You can store food items",
+                        "img_large": "19-img-large.jpg",
+                        "img_small": "19-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/2B3TkLT6gr0",
+                        "gitpage": "https://github.com/claudiainbytes/angular-crud-example",
+                        "demourl": "https://claudiainbytes.github.io/angular-crud-example/dist/index.html",
+                        "description": "A small app with CRUD operations using Angular 4 and Firebase."
+                    },
+                    {
+                        "id": 20,
+                        "title": "Gestión Integral",
+                        "short_desc": "A Laravel 5.5 small app",
+                        "img_large": "20-img-large.jpg",
+                        "img_small": "20-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/A57AdCUKsH8",
+                        "gitpage": "https://github.com/claudiainbytes/gestion-integral-prueba",
+                        "demourl": "http://thawing-thicket-27452.herokuapp.com/clientes",
+                        "description": "The purpose of this project is create a MVC small app in Laravel 5.5 that store customers from many cities in Colombia."
+                    },
+                    {
+                        "id": 21,
+                        "title": "Feedreader Jasmine T",
+                        "short_desc": "Jasmine for UI Testing",
+                        "img_large": "21-img-large.jpg",
+                        "img_small": "21-img-small.jpg",
+                        "type": "personal",
+                        "video": "https://youtu.be/E5QiTgOLPKA",
+                        "gitpage": "https://github.com/claudiainbytes/feedreader-jasmine-testing",
+                        "demourl": "https://claudiainbytes.github.io/palermo-neighborhood-map/src/",
+                        "description": "Given a web-based application that reads RSS feeds. How to use Jasmine to write a number of tests against a pre-existing application."
+                    }
+            ]
         },
         {
             "id": 2,
