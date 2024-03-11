@@ -1,4 +1,45 @@
 {
+    "header": {
+        "name" : "Claudia Estupiñán",
+        "title_1" : "Front-end Web Developer",
+        "title_2" : "UI Developer",
+        "location": "Bogotá, Colombia",
+        "picture" : "./img/about.jpg",
+        "social_media": [
+            {
+                "id" : 1,
+                "name" : "e-mail",
+                "url"  : "mailto:claudiaeforero@hotmail.com",
+                "iconclass": "fa-regular fa-envelope",
+                "target" : "_blank",
+                "visible" : false  
+            },
+            {
+                "id" : 2,
+                "name" : "LinkedIn",
+                "url"  : "https://www.linkedin.com/in/claudiaestupinanforero/",
+                "iconclass": "fa-brands fa-linkedin",
+                "target" : "_blank",
+                "visible" : true  
+            },
+            {
+                "id" : 3,
+                "name" : "GitHub",
+                "url"  : "https://github.com/claudiainbytes",
+                "iconclass": "fa-brands fa-github",
+                "target" : "_blank",
+                "visible" : true  
+            },
+            {
+                "id" : 4,
+                "name" : "Twitter",
+                "url"  : "https://twitter.com/claudiainbytes",
+                "iconclass": "fa-brands fa-twitter",
+                "target" : "_blank",
+                "visible" : true  
+            }
+        ]
+    },
     "sections" : [
         {
             "id": 1,
