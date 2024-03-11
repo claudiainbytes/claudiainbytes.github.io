@@ -8,6 +8,13 @@
   <div class="lg:container mx-auto grid grid-cols-1 gap-0" v-else>
     <p>Data is not available</p>
   </div>
+  <VuePreloader
+    :background-color="currentTheme.bgcolor"
+    :color="currentTheme.color"
+    transition-type="fade-right"
+    :loading-speed="25"
+    :transition-speed="1400"
+  ></VuePreloader>
 </template>
 <script setup>
   import { ref, reactive, onMounted } from 'vue'
@@ -18,6 +25,9 @@
   import { useSystemStore } from './store/system_store'
   import systemService  from './services/systemService'
   import dataService  from './services/dataService'
+
+  import { VuePreloader } from 'vue-preloader';
+  import '../node_modules/vue-preloader/dist/style.css'
   
   import Nav from './components/Nav.vue' 
   import Header from './components/Header.vue' 

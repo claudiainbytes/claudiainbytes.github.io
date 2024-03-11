@@ -11,9 +11,9 @@
 
   const switchTheme = () => {
     if(currentTheme.mode === "dark"){
-        themeSwitcherStore.setCurrentTheme({ mode:'light', theme: 'lofi', icon: 'fa-solid fa-moon'})
+        themeSwitcherStore.setCurrentTheme({ mode:'light', theme: 'lofi', icon: 'fa-solid fa-moon', bgcolor: '#ffffff', color:'#000000'})
     } else {
-        themeSwitcherStore.setCurrentTheme({ mode:'dark', theme: 'synthwave', icon: 'fa-regular fa-sun'})
+        themeSwitcherStore.setCurrentTheme({ mode:'dark', theme: 'synthwave', icon: 'fa-regular fa-sun', bgcolor: '#1a103d', color:'#e779c1'})
     }
     document.querySelector("html").setAttribute("data-theme", currentTheme.theme)
   }
