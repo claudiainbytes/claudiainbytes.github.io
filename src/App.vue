@@ -15,6 +15,8 @@
   import { useThemeSwitcherStore } from './store/themeswitcher_store'
   import { useLangSwitcherStore } from './store/langswitcher_store'
   import { useDataStore } from './store/data_store'
+  import { useSystemStore } from './store/system_store'
+  import systemService  from './services/systemService'
   import dataService  from './services/dataService'
   
   import Nav from './components/Nav.vue' 
@@ -26,11 +28,19 @@
   const getCurrentTheme = storeToRefs(themeSwitcherStore)
   const currentTheme = reactive(themeSwitcherStore.getCurrentTheme)
 
+  const systemStore = useSystemStore()
+  const getCurrentSystemData = storeToRefs(systemStore)
+  const currentSystemData = reactive(systemStore.getCurrentSystemData)
+
   const dataStore = useDataStore()
   const getCurrentData = storeToRefs(dataStore)
   const currentData = reactive(dataStore.getCurrentData)
 
   onMounted(() => {
+    systemService
+      .getAllSystemData()
+      .then(allSystemData => systemStore.setCurrentSystemData(allSystemData))
+      .catch(error => console.log(error))
     dataService
       .getAllData()
       .then(allData => dataStore.setCurrentData(allData))

@@ -31,7 +31,7 @@
 </template>
 <script setup>
   import { reactive } from 'vue'
-  import { useDataStore } from './../store/data_store'
+  import { useSystemStore } from './../store/system_store'
   import { useLangSwitcherStore } from './../store/langswitcher_store'
   import LangSwitcher from './minicomponents/LangSwitcher.vue' 
   import ThemeSwitcher from './minicomponents/ThemeSwitcher.vue' 
@@ -39,6 +39,6 @@
   const langSwitcherStore = useLangSwitcherStore()
   const currentLang = reactive(langSwitcherStore.getCurrentLang)
 
-  const dataStore = useDataStore()
-  const menuData = dataStore.getCurrentData.menu.map( item => item ) 
+  const systemStore = useSystemStore()
+  const menuData = systemStore.getCurrentSystemData.menu.map( item => item ) 
 </script>

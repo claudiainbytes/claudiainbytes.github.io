@@ -1,34 +1,4 @@
 {
-    "menu": [
-        {
-            "id": 1,
-            "name": {
-                "es": "Intro",
-                "en": "Intro"
-            }
-        },
-        {
-            "id": 2,
-            "name": {
-                "es": "Habilidades",
-                "en": "Skills"
-            }
-        },
-        {
-            "id": 3,
-            "name": {
-                "es": "Proyectos",
-                "en": "Projects"
-            }
-        },
-        {
-            "id": 4,
-            "name": {
-                "es": "Blog",
-                "en": "Blog"
-            }
-        }
-    ],
     "sections" : [
         {
             "id": 1,

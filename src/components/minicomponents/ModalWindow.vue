@@ -11,13 +11,23 @@
             </ul>
             <div class="modal-action">
                 <form method="dialog">
-                    <button class="btn btn-primary">Close</button>
+                    <button class="btn btn-primary">{{  buttonsData[1].name[currentLang.lang] }}</button>
                 </form>
             </div>
         </div>
     </dialog>
 </template>
 <script setup>
-const { modalId, idCard, card } = defineProps({ modalId: String, idCard: String, card: Object })
+import { reactive } from 'vue'
+import { useSystemStore } from './../../store/system_store'
+import { useLangSwitcherStore } from './../../store/langswitcher_store'
+
+const langSwitcherStore = useLangSwitcherStore()
+const currentLang = reactive(langSwitcherStore.getCurrentLang)
+
+const systemStore = useSystemStore()
+const buttonsData = systemStore.getCurrentSystemData.buttons.map( item => item ) 
+
+const { modalId, card } = defineProps({ modalId: String, card: Object })
 const cardImgLarge = `https://claudiainbytes.github.io/img/portfolio/${card.img_large}`
 </script>

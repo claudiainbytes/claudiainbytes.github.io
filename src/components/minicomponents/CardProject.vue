@@ -5,19 +5,27 @@
             <h3 class="card-title"><span class="bg-neutral">{{ card.title }}</span></h3>
             <p><span class="bg-neutral">{{ card.short_desc }}</span></p>
             <div class="card-actions justify-end">
-            <button class="btn btn-primary" @click="showModalWindow(modalId)">See Now</button>
+            <button class="btn btn-primary" @click="showModalWindow(modalId)">{{  buttonsData[0].name[currentLang.lang] }}</button>
             </div>
         </div>
-        <ModalWindow :modalId="modalId" :idCard="idCard" :card="card" />
+        <ModalWindow :modalId="modalId" :card="card" />
     </div>
 </template>
 <script setup>
-import { computed } from 'vue'
+import { computed, reactive } from 'vue'
+import { useSystemStore } from './../../store/system_store'
+import { useLangSwitcherStore } from './../../store/langswitcher_store'
 import ModalWindow from './ModalWindow.vue' 
 
-const { idCard, card } = defineProps({ idCard: String, card: Object })
+const langSwitcherStore = useLangSwitcherStore()
+const currentLang = reactive(langSwitcherStore.getCurrentLang)
 
-const modalId = computed(() => `modal_${idCard}` )
+const systemStore = useSystemStore()
+const buttonsData = systemStore.getCurrentSystemData.buttons.map( item => item ) 
+
+const { card } = defineProps({ card: Object })
+
+const modalId = computed(() => `modal_${card.id}` )
 
 const cardImgSmall = `https://claudiainbytes.github.io/img/portfolio/${card.img_small}`
 
