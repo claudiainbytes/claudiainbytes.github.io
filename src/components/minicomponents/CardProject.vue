@@ -27,7 +27,7 @@ const { card } = defineProps({ card: Object })
 
 const modalId = computed(() => `modal_${card.id}` )
 
-const cardImgSmall = `https://claudiainbytes.github.io/img/portfolio/${card.img_small}`
+const cardImgSmall = `./img/portfolio/${card.img_small}`
 
 const showModalWindow = (modalId) => document.getElementById(modalId).showModal()
 

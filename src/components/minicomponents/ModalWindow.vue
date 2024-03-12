@@ -29,5 +29,5 @@ const systemStore = useSystemStore()
 const buttonsData = systemStore.getCurrentSystemData.buttons.map( item => item ) 
 
 const { modalId, card } = defineProps({ modalId: String, card: Object })
-const cardImgLarge = `https://claudiainbytes.github.io/img/portfolio/${card.img_large}`
+const cardImgLarge = `./img/portfolio/${card.img_large}`
 </script>
