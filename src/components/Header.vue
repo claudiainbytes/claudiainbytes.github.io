@@ -10,7 +10,7 @@
           </div>
           <div class="w-full text-center p-4 mb-0 prose max-w-none">
             <h1 class="my-0 text-primary">{{ headerData.name }}</h1>
-            <h3 class="my-0">{{ headerData.title_1 }}</h3>
+            <h3 class="my-0 text-secondary">{{ headerData.title_1 }}</h3>
           </div>
           <div class="w-full text-center p-4 prose prose-a:text-lg max-w-none">
             <h4 class="my-0"><i class="fa-solid fa-location-dot text-lg mr-2 mb-2"></i>{{ headerData.location }}</h4>

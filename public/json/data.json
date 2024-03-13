@@ -9,7 +9,7 @@
             {
                 "id" : 1,
                 "name" : "e-mail",
-                "url"  : "mailto:claudiaeforero@hotmail.com",
+                "url"  : "mailto:claudiainbytes@gmail.com",
                 "iconclass": "fa-regular fa-envelope",
                 "target" : "_blank",
                 "visible" : false  
@@ -49,15 +49,54 @@
                 "en": "Projects"
             },
             "description": {
-                "es": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back",
-                "en": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+                "es": "Algunos de los proyectos que ha realizado o colaborado:",
+                "en": "Some projects she has worked on:"
             },
             "cards":  [
+                    {
+                        "id": 29,
+                        "visible": true,
+                        "title": "Bogotá.gov.co",
+                        "short_desc": "Front-end redesign based on Drupal 8",
+                        "img_large": "29-img-small.jpg",
+                        "img_small": "29-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "",
+                        "demourl": "https://bogota.gov.co/que-hacer/agenda-cultural",
+                        "description": "Front-end redesign based on Drupal 8, Bootstrap 4, jQuery, JS Vanilla, Vue 3 Options API and SASS."
+                    },
+                    {
+                        "id": 26,
+                        "visible": true,
+                        "title": "Pufi Template Demo",
+                        "short_desc": "TailwindCSS template",
+                        "img_large": "26-img-small.jpg",
+                        "img_small": "26-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/pufi-template-demo/",
+                        "demourl": "https://claudiainbytes.github.io/pufi-template-demo/public/",
+                        "description": "TailwindCSS template."
+                    },
+                    {
+                        "id": 25,
+                        "visible": true,
+                        "title": "Yan-Ken-Po!",
+                        "short_desc": "Rock, paper, scissors with VueJS 3, Typescript and TailwindCSS",
+                        "img_large": "25-img-small.jpg",
+                        "img_small": "25-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/yan-ken-po/",
+                        "demourl": "https://claudiainbytes.github.io/yan-ken-po/",
+                        "description": "Rock, paper, scissors with VueJS3, Typescript and TailwindCSS."
+                    },
                     {
                         "id": 24,
                         "visible": true,
                         "title": "The Fortune Cookie App",
-                        "short_desc": "A digital deck of positive quotes.",
+                        "short_desc": "A digital deck of positive quotes in React",
                         "img_large": "24-img-small.jpg",
                         "img_small": "24-img-large.jpg",
                         "type": "personal",
@@ -65,6 +104,19 @@
                         "gitpage": "https://github.com/claudiainbytes/fortune-cookies-app",
                         "demourl": "https://claudiainbytes.github.io/fortune-cookies-app/",
                         "description": "A small project that shows random quotes based on React Redux JS."
+                    },
+                    {
+                        "id": 28,
+                        "visible": true,
+                        "title": "The IMPACT conversion collection",
+                        "short_desc": "A basic landing page",
+                        "img_large": "28-img-small.jpg",
+                        "img_small": "28-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/landing-page-001/",
+                        "demourl": "https://landing-pages.3-102digital.com/demo-001/",
+                        "description": "A landing page with a form to capture leads using Bootstrap 4 and jQuery."
                     },
                     {
                         "id": 23,
@@ -117,6 +169,19 @@
                         "gitpage": "https://github.com/claudiainbytes/reactjsweatherforecast",
                         "demourl": "https://claudiainbytes.github.io/reactjsweatherforecast/",
                         "description": "The purpose of this project is create components that bring information about weather forecast in several cities of Colombia."
+                    },
+                    {
+                        "id": 27,
+                        "visible": true,
+                        "title": "New York Times Bestsellers",
+                        "short_desc": "Angular 4 & NY Times Books API",
+                        "img_large": "27-img-small.jpg",
+                        "img_small": "27-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/angular4-appbook",
+                        "demourl": "https://claudiainbytes.github.io/angular4-appbook/dist/index.html",
+                        "description": "Top 5 of the most best-sellers by category using The New York Times API for developers. Made with Angular 4 & NY Times Books API."
                     },
                     {
                         "id": 18,
@@ -180,8 +245,8 @@
                 "en": "Skills"
             },
             "description": {
-                "es": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2)",
-                "en": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2)"
+                "es": "<strong>Técnicas</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Resolución de problemas, creativa, metódica, apasionada por la estética, orientada al detalle, centrada en la calidad, sensible. <br/><strong>Idiomas</strong>: Español, Inglés(Intermedio B2).<br/>",
+                "en": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2).<br/>"
             } 
         },
         {
@@ -194,8 +259,117 @@
             "description": {
                 "es": "Apasionada Desarrolladora Front-End con más de 5 años de experiencia creando interfaces centradas en el usuario para aplicaciones web de impacto. Experta en la traducción de diseños UI/UX en sitios web visualmente atractivos y responsivos que priorizan la experiencia del usuario en todos los dispositivos. Posee una sólida trayectoria de colaboración con equipos de diseño, garantizando la viabilidad técnica y entregando interfaces de usuario de alta calidad. Adicionalmente, es responsable de apoyar el desarrollo de nuevas funcionalidades orientadas al usuario, asegurando que el sitio web permanezca amigable, visualmente atractivo y adaptable de acuerdo a los requerimientos del proyecto y la viabilidad técnica.",
                 "en": "Passionate Front-End Developer with 5+ years of experience crafting user-centric interfaces for impactful web applications. Skilled in translating UI/UX designs into visually appealing and responsive websites that prioritize user experience across all devices. She has a strong track record of collaboration with design teams, ensuring technical feasibility and delivering high-quality user interfaces. Additionally, she is responsible for supporting the development of new user-facing features, ensuring the website remains user-friendly, visually appealing and responsive according to project requirements and technical feasibility."
-            } 
+            },
+            "education": {
+                "title": {
+                    "es": "Educación",
+                    "en": "Education"
+                },
+                "order": "ASC",
+                "list": [
+                    { 
+                        "id": 1,
+                        "degree_major": {
+                            "es": "Ingenieria de Sistemas",
+                            "en": "System Engineering Bachelor Degree"
+                        },
+                        "institute": {
+                            "es": "UNIVERSIDAD SIMÓN BOLÍVAR",
+                            "en": "SIMÓN BOLÍVAR UNIVERSITY"
+                        },
+                        "place" : "Cúcuta, Colombia",
+                        "years": {
+                            "es": "Febrero 2000 - Marzo 2006",
+                            "en": "February 2000 - March 2006"
+                        },
+                        "order": 1 
+                    },
+                    { 
+                        "id": 2,
+                        "degree_major": {
+                            "es": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program",
+                            "en": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program"
+                        },
+                        "institute": {
+                            "es": "UDACITY",
+                            "en": "UDACITY"
+                        },
+                        "place": "On-line",
+                        "years": {
+                            "es": "Junio 2017 - Enero 2018",
+                            "en": "June 2017 - January 2018"
+                        },
+                        "order": 3 
+                    },
+                    { 
+                        "id": 3,
+                        "degree_major": {
+                            "es": "Curso Full Stack open, Apps SPA ReactJS y REST APIs con Node.js",
+                            "en": "Full Stack open course, SPA ReactJS & REST APIs with Node.js"
+                        },
+                        "institute": {
+                            "es": "UNIVERSIDAD DE HELSINKI",
+                            "en": "UNIVERSITY OF HELSINKI"
+                        },
+                        "place": "On-line",
+                        "years": {
+                            "es": "Febrero 2024 - Actualmente",
+                            "en": "February 2024 - Current"
+                        },
+                        "order": 2 
+                    }
+                ]
+            },
+            "experience": {
+                "title": {
+                    "es": "Experiencia",
+                    "en": "Latest experience"
+                },
+                "order": "ASC",
+                "list": [
+                    { 
+                        "id": 1,
+                        "role": "Front-end web developer",
+                        "company": {
+                            "es": "ALCADÍA MAYOR DE BOGOTÁ, SECRETARÍA GENERAL",
+                            "en": "THE MAYOR'S OFFICE OF BOGOTÁ, GENERAL SECRETARIAT"
+                        }, 
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "Enero 2022 - Diciembre 2023",
+                            "en": "January 2022 - December 2023"
+                        }, 
+                        "desc": {
+                            "es": "Rediseño adaptable del sitio web de la ciudad de Bogotá por lado front en Drupal 8.",
+                            "en": "Drupal 8 front end developer making and supporting layouting of the new website of the city of Bogotá."
+                        }, 
+                        "keywords": "HTML5, CSS3, SASS, Javascript, Vue 2 & 3, JS Vanilla, jQuery, ReactJS, Drupal",
+                        "order": 1 
+                    },
+                    { 
+                        "id": 2,
+                        "role": "Full-stack web developer",
+                        "company": {
+                            "es": "GEOMETRY GLOBAL COLOMBIA",
+                            "en": "GEOMETRY GLOBAL COLOMBIA"
+                        }, 
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "Junio 2019 - Noviembre 2021",
+                            "en": "June 2019 - November 2021"
+                        }, 
+                        "desc": {
+                            "es": "Crear y dar soporte a sitios web para proyectos de estrategias para marketing digital basado en stack PHP.",
+                            "en": "Had experience building and supporting websites projects for digital marketing strategies based on PHP stack."
+                        }, 
+                        "keywords": "HTML5, CSS3, Javascript, PHP, MariaDB, Vue.js, JS Vanilla, jQuery, Drupal, Wordpress, Laravel",
+                        "order": 2 
+                    }
+                ]
+            }
         }
     ] 
     
 }
+
+
