@@ -1,5 +1,5 @@
 import axios from "axios"
-const baseUrl = 'http://localhost:3000/claudiainbytes2024/json/data.json'
+const baseUrl = './json/data.json'
 
 const getAllData = async () => {
   return await axios.get(baseUrl).then((response) => response.data)
