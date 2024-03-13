@@ -13,12 +13,12 @@ const router = createRouter({
         component: Intro 
       },
       {
-        path: '/skills', 
+        path: '/skills/', 
         name: 'Skills',
         component: Skills 
       },
       {
-        path: '/projects', 
+        path: '/projects/', 
         name: 'Projects',
         component: Projects 
         
