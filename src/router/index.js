@@ -25,7 +25,7 @@ const router = createRouter({
       {
         path: '/:catchAll(.*)',
         name: '404Name',
-        component: Intro
+        redirect: { name: 'Intro' } 
       }
     ]
   })
