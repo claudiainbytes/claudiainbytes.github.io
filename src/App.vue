@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:container mx-auto grid grid-cols-12 gap-0" v-if="Object.keys(currentData).length > 0">
+  <div class="lg:container mx-auto grid grid-cols-12 gap-0" v-if="((Object.keys(currentData).length > 0) && (Object.keys(currentSystemData).length > 0))">
     <Nav></Nav>
     <Header></Header>
     <Main></Main>
