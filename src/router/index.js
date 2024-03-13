@@ -13,15 +13,19 @@ const router = createRouter({
         component: Intro 
       },
       {
-        path: '/skills/', 
+        path: '/skills', 
         name: 'Skills',
         component: Skills 
       },
       {
-        path: '/projects/', 
+        path: '/projects', 
         name: 'Projects',
         component: Projects 
-        
+      },
+      {
+        path: '/:catchAll(.*)',
+        name: '404Name',
+        component: Intro
       }
     ]
   })
