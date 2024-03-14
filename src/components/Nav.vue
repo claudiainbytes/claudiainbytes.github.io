@@ -31,6 +31,7 @@
 </template>
 <script setup>
   import { reactive } from 'vue'
+  import { useRouter } from 'vue-router'
   import { useSystemStore } from './../store/system_store'
   import { useLangSwitcherStore } from './../store/langswitcher_store'
   import LangSwitcher from './minicomponents/LangSwitcher.vue' 
@@ -41,4 +42,7 @@
 
   const systemStore = useSystemStore()
   const menuData = systemStore.getCurrentSystemData.menu.map( item => item ) 
+
+  const router = useRouter()
+
 </script>
