@@ -54,6 +54,19 @@
             },
             "cards":  [
                     {
+                        "id": 30,
+                        "visible": true,
+                        "title": "The D1 Wine Store",
+                        "short_desc": "A basic store based on ReactJS",
+                        "img_large": "30-img-small.jpg",
+                        "img_small": "30-img-large.jpg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/abasicstore",
+                        "demourl": "https://claudiainbytes.github.io/abasicstore",
+                        "description": "Front-end of a shopping cart based on ReactJS."
+                    },
+                    {
                         "id": 29,
                         "visible": true,
                         "title": "Bogotá.gov.co",
