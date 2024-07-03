@@ -34,7 +34,7 @@
                 "id" : 4,
                 "name" : "Twitter",
                 "url"  : "https://twitter.com/claudiainbytes",
-                "iconclass": "fa-brands fa-twitter",
+                "iconclass": "fa-brands fa-x-twitter",
                 "target" : "_blank",
                 "visible" : true  
             }
@@ -53,6 +53,19 @@
                 "en": "Some projects she has worked on:"
             },
             "cards":  [
+                    {
+                        "id": 31,
+                        "visible": true,
+                        "title": "My Spotify Song Searcher",
+                        "short_desc": "A top track of songs from Spotify Web API",
+                        "img_large": "31-img-large.jpg",
+                        "img_small": "31-img-small.jpeg",
+                        "type": "personal",
+                        "video": "",
+                        "gitpage": "https://github.com/claudiainbytes/my-spotify-song-searcher",
+                        "demourl": "https://claudiainbytes.github.io/my-spotify-song-searcher/",
+                        "description": "A player component based on ReactJS + Typescript + Spotify Web API"
+                    },
                     {
                         "id": 30,
                         "visible": true,
