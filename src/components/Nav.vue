@@ -10,7 +10,7 @@
                     <li><router-link :to="{ name: 'Intro'  }">{{ menuData[0].name[currentLang.lang] }}</router-link></li>
                     <li><router-link :to="{ name: 'Skills'  }">{{ menuData[1].name[currentLang.lang] }}</router-link></li>
                     <li><router-link :to="{ name: 'Projects'  }">{{ menuData[2].name[currentLang.lang] }}</router-link></li>
-                    <li><a>{{ menuData[3].name[currentLang.lang] }}</a></li>
+                    <li><a :href="menuData[3].href" :target="menuData[3].href">{{ menuData[3].name[currentLang.lang] }}</a></li>
                   </ul>
                 </div>
                 <a class="btn btn-ghost text-sm lg:text-xl text-primary">@claudiainbytes</a>
