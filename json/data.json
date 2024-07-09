@@ -271,8 +271,8 @@
                 "en": "Skills"
             },
             "description": {
-                "es": "<strong>Técnicas</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Resolución de problemas, creativa, metódica, apasionada por la estética, orientada al detalle, centrada en la calidad, sensible. <br/><strong>Idiomas</strong>: Español, Inglés(Intermedio B2).<br/>",
-                "en": "<strong>Technical</strong>: HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><strong>Hard</strong>: MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><strong>Soft</strong>: Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><strong>Languages</strong>: Spanish(Native), English(Intermediate B2).<br/>"
+                "es": "<strong>Técnicas</strong>: <br/>HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Resolución de problemas, creativa, metódica, apasionada por la estética, orientada al detalle, centrada en la calidad, sensible. <br/><br/><strong>Idiomas</strong>: <br/>Español, Inglés(Intermedio B2).<br/>",
+                "en": "<strong>Technical</strong>: <br/>HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><br/><strong>Languages</strong>: <br/>Spanish(Native), English(Intermediate B2).<br/>"
             } 
         },
         {
@@ -283,8 +283,8 @@
                 "en": "About me"
             },
             "description": {
-                "es": "Apasionada Desarrolladora Front-End con más de 5 años de experiencia creando interfaces centradas en el usuario para aplicaciones web de impacto. Experta en la traducción de diseños UI/UX en sitios web visualmente atractivos y responsivos que priorizan la experiencia del usuario en todos los dispositivos. Posee una sólida trayectoria de colaboración con equipos de diseño, garantizando la viabilidad técnica y entregando interfaces de usuario de alta calidad. Adicionalmente, es responsable de apoyar el desarrollo de nuevas funcionalidades orientadas al usuario, asegurando que el sitio web permanezca amigable, visualmente atractivo y adaptable de acuerdo a los requerimientos del proyecto y la viabilidad técnica.",
-                "en": "Passionate Front-End Developer with 5+ years of experience crafting user-centric interfaces for impactful web applications. Skilled in translating UI/UX designs into visually appealing and responsive websites that prioritize user experience across all devices. She has a strong track record of collaboration with design teams, ensuring technical feasibility and delivering high-quality user interfaces. Additionally, she is responsible for supporting the development of new user-facing features, ensuring the website remains user-friendly, visually appealing and responsive according to project requirements and technical feasibility."
+                "es": "Experimentada desarrolladora Front-End cuyo propósito es crear interfaces centradas en el usuario para aplicaciones web de impacto. Desde la creación y corrección de la apariencia de los sitios web basados en tecnologías PHP hasta la creación de componentes dinámicos basados en frameworks de JavaScript, ella es hábil en el desarrollo de nuevas funciones orientadas al usuario en sitios web o aplicaciones web visualmente atractivas, dinámicamente funcionales y responsivas que priorizan la experiencia del usuario en todos los dispositivos. Trabajando en un equipo multidisciplinario, ha asegurado la viabilidad técnica, entregando interfaces de usuario de alta calidad según los requisitos del proyecto.",
+                "en": "A seasoned Front-End Developer whose purpose is crafting user-centric interfaces for impactful web applications. From creating and fixing the look and feel of websites based on PHP technologies to creating dynamic components based on JavaScript frameworks, she is skilled in developing new user-facing features into visually appealing, dynamically functional, and responsive websites or web applications that prioritize user experience across all devices. Working on a multidisciplinary team, she has ensured technical feasibility and delivered high-quality user interfaces according to project requirements."
             },
             "education": {
                 "title": {
@@ -296,12 +296,12 @@
                     { 
                         "id": 1,
                         "degree_major": {
-                            "es": "Ingenieria de Sistemas",
+                            "es": "Ingeniería de Sistemas",
                             "en": "System Engineering Bachelor Degree"
                         },
                         "institute": {
-                            "es": "UNIVERSIDAD SIMÓN BOLÍVAR",
-                            "en": "SIMÓN BOLÍVAR UNIVERSITY"
+                            "es": "UNIVERSIDAD SIMÓN BÓLIVAR",
+                            "en": "UNIVERSIDAD SIMÓN BÓLIVAR"
                         },
                         "place" : "Cúcuta, Colombia",
                         "years": {
@@ -325,7 +325,7 @@
                             "es": "Junio 2017 - Enero 2018",
                             "en": "June 2017 - January 2018"
                         },
-                        "order": 3 
+                        "order": 2 
                     },
                     { 
                         "id": 3,
@@ -342,7 +342,7 @@
                             "es": "Febrero 2024 - Actualmente",
                             "en": "February 2024 - Current"
                         },
-                        "order": 2 
+                        "order": 3 
                     }
                 ]
             },
@@ -390,6 +390,25 @@
                         }, 
                         "keywords": "HTML5, CSS3, Javascript, PHP, MariaDB, Vue.js, JS Vanilla, jQuery, Drupal, Wordpress, Laravel",
                         "order": 2 
+                    },
+                    { 
+                        "id": 3,
+                        "role": "Freelance web developer",
+                        "company": {
+                            "es": "FIVERR",
+                            "en": "FIVERR"
+                        }, 
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "August 2019 - Current",
+                            "en": "August 2019 - Current"
+                        }, 
+                        "desc": {
+                            "es": "Crear y dar soporte a sitios web para proyectos de estrategias para marketing digital basado en stack PHP.",
+                            "en": "Had experience building and supporting websites projects for digital marketing strategies based on PHP stack."
+                        }, 
+                        "keywords": "HTML5, CSS3, Javascript, PHP, MariaDB, Vue.js, JS Vanilla, jQuery, Drupal, Wordpress, Laravel",
+                        "order": 3 
                     }
                 ]
             }
