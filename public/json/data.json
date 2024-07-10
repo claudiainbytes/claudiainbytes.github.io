@@ -313,6 +313,23 @@
                     { 
                         "id": 2,
                         "degree_major": {
+                            "es": "Especialización En Gerencia De Multimedia",
+                            "en": "Media Management Postgraduate program"
+                        },
+                        "institute": {
+                            "es": "UNIVERSIDAD SANTO TOMÁS",
+                            "en": "UNIVERSIDAD SANTO TOMÁS"
+                        },
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "Agosto 2013 - Abril 2015",
+                            "en": "August 2019 - April 2015"
+                        },
+                        "order": 2 
+                    },
+                    { 
+                        "id": 3,
+                        "degree_major": {
                             "es": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program",
                             "en": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program"
                         },
@@ -325,10 +342,10 @@
                             "es": "Junio 2017 - Enero 2018",
                             "en": "June 2017 - January 2018"
                         },
-                        "order": 2 
+                        "order": 3 
                     },
                     { 
-                        "id": 3,
+                        "id": 4,
                         "degree_major": {
                             "es": "Curso Full Stack open, Apps SPA ReactJS y REST APIs con Node.js",
                             "en": "Full Stack open course, SPA ReactJS & REST APIs with Node.js"
@@ -342,7 +359,7 @@
                             "es": "Febrero 2024 - Actualmente",
                             "en": "February 2024 - Current"
                         },
-                        "order": 3 
+                        "order": 4 
                     }
                 ]
             },
