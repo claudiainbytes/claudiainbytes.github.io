@@ -1,6 +1,6 @@
 <template>
     <div class="card w-fit bg-base-100 shadow-xl image-full">
-        <figure><img :src="cardImgSmall" alt="Image of project" /></figure>
+        <figure><img loading="lazy" :src="cardImgSmall" alt="Image of project" /></figure>
         <div class="card-body">
             <h3 class="card-title"><span class="bg-neutral text-warning">{{ card.title }}</span></h3>
             <p><span class="bg-neutral text-warning">{{ card.short_desc }}</span></p>
