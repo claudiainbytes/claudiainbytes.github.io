@@ -57,7 +57,7 @@ export default {
       { 
         lofi: {
           ...require("daisyui/src/theming/themes")["lofi"],
-          "base-100": "#ece3ca"
+          "base-100": "#e9e1e5"
         }
       },
       "cupcake",
