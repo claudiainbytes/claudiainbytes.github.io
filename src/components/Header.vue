@@ -14,7 +14,7 @@
           </div>
           <div class="w-full text-center p-4 prose prose-a:text-lg max-w-none">
             <h4 class="my-0"><i class="fa-solid fa-location-dot text-lg mr-2 mb-2"></i>{{ headerData.location }}</h4>
-            <a class="social-media-icon-link" v-for="sm in headerData.social_media" :key="sm.id" :href="sm.url" :target="sm.target" v-show="sm.visible">
+            <a class="social-media-icon-link" v-for="sm in visibleSocialMedia" :key="sm.id" :href="sm.url" :target="sm.target">
               <i :class="sm.iconclass"></i>
             </a>
           </div>
@@ -22,10 +22,16 @@
     </header>
 </template>
 <script setup>
-  import { reactive } from 'vue'
+  import { computed, reactive } from 'vue'
   import { useDataStore } from './../store/data_store'
 
   const dataStore = useDataStore()
   const currentData = reactive(dataStore.getCurrentData)
   const headerData = currentData.header
+
+  const visibleSocialMedia = computed(() => {
+    if (!headerData?.social_media) return []
+
+    return headerData.social_media.filter((item) => item?.visible === true)
+  })
 </script>

@@ -37,6 +37,30 @@
                 "iconclass": "fa-brands fa-threads",
                 "target" : "_blank",
                 "visible" : true  
+            },
+            {
+                "id" : 5,
+                "name" : "Wordpress",
+                "url"  : "https://claudiainbytes.wordpress.com/",
+                "iconclass": "fa-brands fa-wordpress",
+                "target" : "_blank",
+                "visible" : true  
+            },
+            {
+                "id" : 6,
+                "name" : "You Tube",
+                "url"  : "https://www.youtube.com/@claudiainbytes",
+                "iconclass": "fa-brands fa-youtube",
+                "target" : "_blank",
+                "visible" : true  
+            },
+            {
+                "id" : 7,
+                "name" : "Codepen",
+                "url"  : "https://codepen.io/claudiainbytes/pens/public",
+                "iconclass": "fa-brands fa-codepen",
+                "target" : "_blank",
+                "visible" : true  
             }
         ]
     },
