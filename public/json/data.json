@@ -271,8 +271,8 @@
                 "en": "Skills"
             },
             "description": {
-                "es": "<strong>Técnicas</strong>: <br/>HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Resolución de problemas, creativa, metódica, apasionada por la estética, orientada al detalle, centrada en la calidad, sensible. <br/><br/><strong>Idiomas</strong>: <br/>Español, Inglés(Intermedio B2).<br/>",
-                "en": "<strong>Technical</strong>: <br/>HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, ReactJS, Redux, PHP, Laravel,  MySQL, GIT, Postman, SCRUM. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><br/><strong>Languages</strong>: <br/>Spanish(Native), English(Intermediate B2).<br/>"
+                "es": "<strong>Técnicas</strong>: <br/> HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, React v18.0, Redux, Axios, PHP, Laravel,  MySQL, GIT, Postman, SCRUM, MaterialUI, Vitest, Angular 20. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Resolución de problemas, creativa, metódica, apasionada por la estética, orientada al detalle, centrada en la calidad, sensible. <br/><br/><strong>Idiomas</strong>: <br/>Español, Inglés(Intermedio B2).<br/><br/><strong>Inteligencia Artificial(IA)</strong>:<br/>Gemini, Básico en orquestación de agentes con IA para desarrollo de aplicaciones<br/>",
+                "en": "<strong>Technical</strong>: <br/> HTML5, CSS3, SASS, Bootstrap,  TailwindCSS, JavaScript, jQuery, Vue.js 3 Composition API, Pinia, React v18.0, Redux, Axios, PHP, Laravel,  MySQL, GIT, Postman, SCRUM, MaterialUI, Vitest, Angular 20. <br/><br/><strong>Hard</strong>: <br/>MVC, SPA, Component-based architecture, BEM, responsive design, APIs, UX/UI, performance. <br/><br/><strong>Soft</strong>: <br/>Problem-solving, creative, methodical, visually appealing, detail-oriented, quality-focused, sensitive. <br/><br/><strong>Languages</strong>: <br/>Spanish(Native), English(Intermediate B2).<br/><br/><strong>Artificial Intelligence(AI)</strong>:<br/>Gemini, AI Agents Orchestration basics<br/>"
             } 
         },
         {
@@ -283,8 +283,8 @@
                 "en": "About me"
             },
             "description": {
-                "es": "Experimentada desarrolladora Front-End cuyo propósito es crear interfaces centradas en el usuario para aplicaciones web de impacto. Desde la creación y corrección de la apariencia de los sitios web basados en tecnologías PHP hasta la creación de componentes dinámicos basados en frameworks de JavaScript, ella es hábil en el desarrollo de nuevas funciones orientadas al usuario en sitios web o aplicaciones web visualmente atractivas, dinámicamente funcionales y responsivas que priorizan la experiencia del usuario en todos los dispositivos. Trabajando en un equipo multidisciplinario, ha asegurado la viabilidad técnica, entregando interfaces de usuario de alta calidad según los requisitos del proyecto.",
-                "en": "A seasoned Front-End Developer whose purpose is crafting user-centric interfaces for impactful web applications. From creating and fixing the look and feel of websites based on PHP technologies to creating dynamic components based on JavaScript frameworks, she is skilled in developing new user-facing features into visually appealing, dynamically functional, and responsive websites or web applications that prioritize user experience across all devices. Working on a multidisciplinary team, she has ensured technical feasibility and delivered high-quality user interfaces according to project requirements."
+                "es": "Experimentada desarrolladora Front-End cuyo propósito es crear interfaces centradas en el usuario para aplicaciones web de impacto. Desde la creación y corrección de la apariencia de los sitios web hasta la creación de componentes dinámicos basados en frameworks de JavaScript, ella es hábil en el desarrollo de nuevas funciones orientadas al usuario en sitios web o aplicaciones web visualmente atractivas, dinámicamente funcionales y responsivas que priorizan la experiencia del usuario en todos los dispositivos. Trabajando en un equipo multidisciplinario, ha asegurado la viabilidad técnica, entregando interfaces de usuario de alta calidad según los requisitos del proyecto.",
+                "en": "A seasoned Front-End Developer whose purpose is crafting user-centric interfaces for impactful web applications. From creating and fixing the look and feel of websites to creating dynamic components based on JavaScript frameworks, she is skilled in developing new user-facing features into visually appealing, dynamically functional, and responsive websites or web applications that prioritize user experience across all devices. Working on a multidisciplinary team, she has ensured technical feasibility, delivering high-quality user interfaces according to project requirements."
             },
             "education": {
                 "title": {
@@ -295,6 +295,7 @@
                 "list": [
                     { 
                         "id": 1,
+                        "visible": true,
                         "degree_major": {
                             "es": "Ingeniería de Sistemas",
                             "en": "System Engineering Bachelor Degree"
@@ -312,6 +313,7 @@
                     },
                     { 
                         "id": 2,
+                        "visible": true,
                         "degree_major": {
                             "es": "Especialización En Gerencia De Multimedia",
                             "en": "Media Management Postgraduate Program"
@@ -329,6 +331,7 @@
                     },
                     { 
                         "id": 3,
+                        "visible": true,
                         "degree_major": {
                             "es": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program",
                             "en": "Frontend Nanodegree Program, AT&T Aspire to Tech Scholarship Program"
@@ -346,6 +349,7 @@
                     },
                     { 
                         "id": 4,
+                        "visible": true,
                         "degree_major": {
                             "es": "Curso Full Stack open, Apps SPA ReactJS y REST APIs con Node.js",
                             "en": "Full Stack open course, SPA ReactJS & REST APIs with Node.js"
@@ -372,6 +376,7 @@
                 "list": [
                     { 
                         "id": 1,
+                        "visible": true,
                         "role": "Front-end web developer",
                         "company": {
                             "es": "ALCADÍA MAYOR DE BOGOTÁ, SECRETARÍA GENERAL",
@@ -387,10 +392,11 @@
                             "en": "Drupal 8 front end developer making and supporting layouting of the new website of the city of Bogotá."
                         }, 
                         "keywords": "HTML5, CSS3, SASS, Javascript, Vue 2 & 3, JS Vanilla, jQuery, ReactJS, Drupal",
-                        "order": 1 
+                        "order": 3 
                     },
                     { 
                         "id": 2,
+                        "visible": true,
                         "role": "Full-stack web developer",
                         "company": {
                             "es": "GEOMETRY GLOBAL COLOMBIA",
@@ -406,10 +412,11 @@
                             "en": "Had experience building and supporting websites projects for digital marketing strategies based on PHP stack."
                         }, 
                         "keywords": "HTML5, CSS3, Javascript, PHP, MariaDB, Vue.js, JS Vanilla, jQuery, Drupal, Wordpress, Laravel",
-                        "order": 2 
+                        "order": 4 
                     },
                     { 
                         "id": 3,
+                        "visible": false,
                         "role": "Freelance web developer",
                         "company": {
                             "es": "FIVERR",
@@ -425,7 +432,47 @@
                             "en": "Had experience building and supporting websites projects for digital marketing strategies based on PHP stack."
                         }, 
                         "keywords": "HTML5, CSS3, Javascript, PHP, MariaDB, Vue.js, JS Vanilla, jQuery, Drupal, Wordpress, Laravel",
-                        "order": 3 
+                        "order": 5 
+                    },
+                    { 
+                        "id": 4,
+                        "visible": true,
+                        "role": "Front-end web developer for Relati App",
+                        "company": {
+                            "es": "J.E.P. - JURISDICCIÓN ESPECIAL PARA LA PAZ",
+                            "en": "J.E.P. - JURISDICCIÓN ESPECIAL PARA LA PAZ"
+                        }, 
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "Octubre 2024 - Diciembre 2025",
+                            "en": "October 2024 - December 2025"
+                        }, 
+                        "desc": {
+                            "es": "Integró APIs RESTful con Axios en una aplicación de búsqueda responsiva basada en React.",
+                            "en": "Integrated RESTful APIs with Axios into a responsive React-based search application."
+                        }, 
+                        "keywords": "React.JS, Material UI, Redux, Axios, Fetch API, REST APIs, Postman",
+                        "order": 2 
+                    },
+                    { 
+                        "id": 5,
+                        "visible":true,
+                        "role": "Software Development Engineer Accenture Colombia",
+                        "company": {
+                            "es": "Experis Manpower",
+                            "en": "Experis Manpower"
+                        }, 
+                        "place" : "Bogotá, Colombia",
+                        "years": {
+                            "es": "Enero 2026 - Marzo 2026",
+                            "en": "January 2026 - March 2026"
+                        }, 
+                        "desc": {
+                            "es": "Fortaleció sus habilidades en desarrollo frontend mediante aprendizaje práctico en React.js, Vitest y Angular 20.",
+                            "en": "Strengthened frontend development skills through hands-on learning in React.js, Vitest, and Angular 20."
+                        }, 
+                        "keywords": "React.JS, Axios, Vitest",
+                        "order": 1 
                     }
                 ]
             }

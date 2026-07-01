@@ -1,8 +1,10 @@
 <template>
-  <div class="lg:container mx-auto grid grid-cols-12 gap-0" v-if="((Object.keys(currentData).length > 0) && (Object.keys(currentSystemData).length > 0))">
-    <Nav></Nav>
-    <Header></Header>
-    <Main></Main>
+  <div class="min-h-screen flex flex-col lg:container mx-auto" v-if="((Object.keys(currentData).length > 0) && (Object.keys(currentSystemData).length > 0))">
+    <div class="flex-0 grid grid-cols-12 gap-0">
+      <Nav></Nav>
+      <Header></Header>
+      <Main></Main>
+    </div>
     <Footer></Footer>
   </div>
   <div class="lg:container mx-auto grid grid-cols-1 gap-0" v-else>

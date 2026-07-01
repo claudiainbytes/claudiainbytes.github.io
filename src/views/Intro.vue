@@ -36,7 +36,19 @@
   const dataStore = useDataStore()
   const introData = dataStore.getCurrentData.sections.find(s => s.name === 'Intro')
 
-  const education_list = computed(() => introData.education.list.sort( (a, b) => a.order - b.order ))
-  const experience_list = computed(() => introData.experience.list.sort( (a, b) => a.order - b.order ))
+  const education_list = computed(() => {
+    if (!introData?.education?.list) return []
+
+    return introData.education.list
+      .filter((education) => education?.visible === true)
+      .sort((a, b) => a.order - b.order)
+  })
+  const experience_list = computed(() => {
+    if (!introData?.experience?.list) return []
+
+    return introData.experience.list
+      .filter((experience) => experience?.visible === true)
+      .sort((a, b) => a.order - b.order)
+  })
 
 </script>
