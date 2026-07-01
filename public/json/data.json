@@ -32,9 +32,9 @@
             },
             {
                 "id" : 4,
-                "name" : "Twitter",
-                "url"  : "https://twitter.com/claudiainbytes",
-                "iconclass": "fa-brands fa-x-twitter",
+                "name" : "Threads",
+                "url"  : "https://www.threads.net/@claudiainbytes",
+                "iconclass": "fa-brands fa-threads",
                 "target" : "_blank",
                 "visible" : true  
             }
@@ -55,7 +55,7 @@
             "cards":  [
                     {
                         "id": 31,
-                        "visible": true,
+                        "visible": false,
                         "title": "My Spotify Song Searcher",
                         "short_desc": "A top track of songs from Spotify Web API",
                         "img_large": "31-img-large.jpg",
@@ -120,7 +120,7 @@
                     },
                     {
                         "id": 24,
-                        "visible": true,
+                        "visible": false,
                         "title": "The Fortune Cookie App",
                         "short_desc": "A digital deck of positive quotes in React",
                         "img_large": "24-img-small.jpg",
@@ -198,7 +198,7 @@
                     },
                     {
                         "id": 27,
-                        "visible": true,
+                        "visible": false,
                         "title": "New York Times Bestsellers",
                         "short_desc": "Angular 4 & NY Times Books API",
                         "img_large": "27-img-small.jpg",
@@ -245,7 +245,7 @@
                         "type": "personal",
                         "video": "https://youtu.be/A57AdCUKsH8",
                         "gitpage": "https://github.com/claudiainbytes/gestion-integral-prueba",
-                        "demourl": "http://thawing-thicket-27452.herokuapp.com/clientes",
+                        "demourl": "",
                         "description": "The purpose of this project is create a MVC small app in Laravel 5.5 that store customers from many cities in Colombia."
                     },
                     {
@@ -258,7 +258,7 @@
                         "type": "personal",
                         "video": "https://youtu.be/E5QiTgOLPKA",
                         "gitpage": "https://github.com/claudiainbytes/feedreader-jasmine-testing",
-                        "demourl": "https://claudiainbytes.github.io/palermo-neighborhood-map/src/",
+                        "demourl": "",
                         "description": "Given a web-based application that reads RSS feeds. How to use Jasmine to write a number of tests against a pre-existing application."
                     }
             ]

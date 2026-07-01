@@ -6,11 +6,11 @@
         </div>
     </div>
     <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-8">
-        <CardProject v-for="card in projectsData.cards" :key="card.id" :card="card"/>
+        <CardProject v-for="card in visibleProjects" :key="card.id" :card="card"/>
     </div>
 </template>
 <script setup>
-  import { reactive } from 'vue'
+  import { computed, reactive } from 'vue'
   import { useDataStore } from './../store/data_store'
   import { useLangSwitcherStore } from './../store/langswitcher_store'
   import CardProject from '../components/minicomponents/CardProject.vue'
@@ -20,5 +20,11 @@
 
   const dataStore = useDataStore()
   const projectsData = dataStore.getCurrentData.sections.find(s => s.name === 'Projects')
+
+  const visibleProjects = computed(() => {
+    if (!projectsData?.cards) return []
+
+    return projectsData.cards.filter((card) => card?.visible === true)
+  })
 
 </script>
