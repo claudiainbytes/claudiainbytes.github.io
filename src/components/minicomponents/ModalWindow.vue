@@ -2,7 +2,9 @@
     <dialog :id="modalId" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box prose max-w-none">
             <h3 class="font-bold text-lg">{{ card.title }}</h3>
-            <figure class="not-prose"><img :src="cardImgLarge" alt="Image of project" /></figure>
+            <figure class="not-prose">
+            <img  ref="imgRef" :src="imageSrc" alt="Image of project" />
+            </figure>
             <p>{{ card.description }}</p>
             <ul class="not-prose">
                 <li v-if="card.gitpage"><a class="btn btn-primary btn-sm mr-2 mb-2" :href="card.gitpage" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a></li>
@@ -18,9 +20,12 @@
     </dialog>
 </template>
 <script setup>
-import { reactive } from 'vue'
+import { reactive, ref, onMounted, onBeforeUnmount } from 'vue'
 import { useSystemStore } from './../../store/system_store'
 import { useLangSwitcherStore } from './../../store/langswitcher_store'
+
+const imgRef = ref(null)
+const imageSrc = ref('')
 
 const langSwitcherStore = useLangSwitcherStore()
 const currentLang = reactive(langSwitcherStore.getCurrentLang)
@@ -29,5 +34,23 @@ const systemStore = useSystemStore()
 const buttonsData = systemStore.getCurrentSystemData.buttons.map( item => item ) 
 
 const { modalId, card } = defineProps({ modalId: String, card: Object })
-const cardImgLarge = `./img/portfolio/${card.img_large}`
+
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        imageSrc.value = `./img/portfolio/${card.img_large}`
+        observer.disconnect()
+      }
+    })
+  })
+
+  if (imgRef.value) observer.observe(imgRef.value)
+})
+
+onBeforeUnmount(() => {
+  // limpiar observer si hace falta
+})
+
+
 </script>

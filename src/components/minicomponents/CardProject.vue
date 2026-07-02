@@ -1,6 +1,6 @@
 <template>
-    <div class="card w-fit bg-base-100 shadow-xl image-full">
-        <figure><img loading="lazy" :src="cardImgSmall" alt="Image of project" /></figure>
+    <div class="card w-auto bg-base-100 shadow-xl image-full">
+        <figure><img class="w-full" ref="imgRef" :src="imageSrc" :alt="card.title" /></figure>
         <div class="card-body">
             <h3 class="card-title"><span class="bg-neutral text-warning">{{ card.title }}</span></h3>
             <p><span class="bg-neutral text-warning">{{ card.short_desc }}</span></p>
@@ -12,10 +12,13 @@
     </div>
 </template>
 <script setup>
-import { computed, reactive } from 'vue'
+import { computed, reactive, ref, onMounted, onBeforeUnmount } from 'vue'
 import { useSystemStore } from './../../store/system_store'
 import { useLangSwitcherStore } from './../../store/langswitcher_store'
 import ModalWindow from './ModalWindow.vue' 
+
+const imgRef = ref(null)
+const imageSrc = ref('')
 
 const langSwitcherStore = useLangSwitcherStore()
 const currentLang = reactive(langSwitcherStore.getCurrentLang)
@@ -27,7 +30,22 @@ const { card } = defineProps({ card: Object })
 
 const modalId = computed(() => `modal_${card.id}` )
 
-const cardImgSmall = `./img/portfolio/${card.img_small}`
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        imageSrc.value = `./img/portfolio/${card.img_small}`
+        observer.disconnect()
+      }
+    })
+  })
+
+  if (imgRef.value) observer.observe(imgRef.value)
+})
+
+onBeforeUnmount(() => {
+  // limpiar observer si hace falta
+})
 
 const showModalWindow = (modalId) => document.getElementById(modalId).showModal()
 
